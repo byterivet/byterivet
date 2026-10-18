@@ -1,0 +1,21 @@
+{
+  "name": "byterivet",
+  "version": "1.0.0",
+  "description": "Generate valid test files of an exact byte size (1 byte to 2 GB) in 20 formats: PDF, PNG, DOCX, XLSX, CSV, JSON, ZIP, MP4, WAV and more.",
+  "type": "module",
+  "main": "./lib/index.js",
+  "exports": "./lib/index.js",
+  "bin": { "byterivet": "bin/byterivet.js" },
+  "files": ["bin", "lib"],
+  "engines": { "node": ">=18.20" },
+  "scripts": {
+    "test": "node --test test/test.js",
+    "sync": "node scripts/sync.mjs"
+  },
+  "keywords": ["test-files", "dummy-file", "sample-files", "file-generator", "fixtures", "qa", "upload-testing", "pdf", "png", "docx", "xlsx", "csv", "zip", "cli"],
+  "homepage": "https://byterivet.com/test-files/",
+  "repository": { "type": "git", "url": "git+https://github.com/byterivet/byterivet.git" },
+  "bugs": { "url": "https://github.com/byterivet/byterivet/issues" },
+  "author": "ByteRivet (https://byterivet.com)",
+  "license": "MIT"
+}
